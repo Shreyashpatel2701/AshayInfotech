@@ -247,13 +247,13 @@ header
 }
 
 .pre-header ul.info li a {
-  color: red color;
+  color: #afafaf;
   font-size: 14px;
   transition: all .3s;
 }
 
 .pre-header ul.info li a:hover {
-  color: light red color;
+  color: #4da6e7;
 }
 
 .pre-header ul.info li a i {
@@ -283,7 +283,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: red color;
+  background-color: #4da6e7;
 }
 
 .background-header {
