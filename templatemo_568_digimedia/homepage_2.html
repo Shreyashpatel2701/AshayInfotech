@@ -14,14 +14,21 @@
     <title>DigiMedia - Creative SEO HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/form.css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+      <link rel="stylesheet" href="assets/css/form.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+   
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-digimedia-v2.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="">
     <!-- FontAwesome Icons -->
     <link
       rel="stylesheet"
@@ -137,7 +144,7 @@ https://templatemo.com/tm-568-digimedia
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec-v2.png" alt="">
+                <video  controls autoplay muted loop><source src="assets/images/Videos/h1.mp4" type="video/mp4"></video>
               </div>
             </div>
           </div>
@@ -579,9 +586,151 @@ https://templatemo.com/tm-568-digimedia
             <div class="line-dec"></div>
           </div>
         </div>
-        <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-          <form id="search" action="#" method="GET">
+        <div id="contact" class="contact-us section">
+          <div class="container">
             <div class="row">
+               <!-- <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <h6>Contact Us</h6>
+                  <h4>Get In Touch With Us <em>Now</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+              </div>-->
+              <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="contact-dec">
+                        <img src="assets/images/contact-dec-v2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div id="map">
+                        <img src="assets/images/Hiring.jpeg">
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="fill-form">
+                        <div class="row">
+                              
+ 
+
+                           <!--<div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/phone-icon.png" alt="">
+                                <a href="#">010-020-0340</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/email-icon.png" alt="">
+                                <a href="#">our@email.com</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/location-icon.png" alt="">
+                                <a href="#">123 Rio de Janeiro</a>
+                              </div>
+                            </div>
+                          </div>-->
+                           
+                            <div class="col-lg-6">
+                            <fieldset>
+                              <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                            </fieldset>
+                            <fieldset>
+                              <input type="text" name="email" id="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" placeholder="Your Email" required="">
+                            </fieldset>
+                            <fieldset style="text-align: left;">
+                              <p style="padding-left: 15px;">Openings</p>
+                              <select name="country">
+                              <option>Software Developer</option>
+                              <option>Software Tester</option>
+                              <option>Sales Executive</option>
+                              <option>hello </option>
+                              <option>Sales Executive</option>
+                             </select>
+                            </fieldset>
+                            <fieldset style="text-align: left;" >
+                              <p style="padding-left: 15px;">Openings</p>
+                                     <select name="country">
+                                     <option>Fresher</option>
+                                     <option>1-2+</option>
+                                     <option>2-5+</option>
+                                    </select>
+                            </fieldset>
+                            
+                          </div>
+                                        <div class="col-lg-6">
+                                      <fieldset >
+                                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                                       </fieldset >
+                                       
+                                       <fieldset>
+                                        <p >Upload your cv (pdf only )</p>
+                                        <input  type="file"  accept=".pdf"  required="">
+                                      </fieldset>
+                                  </div>
+                                   <div class="col-lg-12">
+                                  <fieldset>
+                                  <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
+                                  <!--
+                                  <script>
+                                    
+                                    function ValidateEmail(inputText)
+                                    {
+                                    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                                    if(inputText.value.match(mailformat))
+                                    {
+                                    alert("Valid email address!");
+                                    document.getElementById('form-submit').focus();
+                                    return true;
+                                    }
+                                    else
+                                    {
+                                    alert("You have entered an invalid email address!");
+                                    document.getElementById('form-submit').focus();
+                                    return false;
+                                    }
+                                    }
+
+                                    var btn = document.getElementById("form-submit");
+                                    btn.addEventListener('click',function(e){
+                                           e.preventDefault()
+                                          
+                                        
+                                        
+                                        
+                                         .then(
+                                          message => alert(message)
+                                        );
+                                    })
+
+                                   </script> --> 
+                                </fieldset>
+                                </div>
+                             
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        
+        
+                <!--<div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                 <form id="search" action="#" method="GET">
+               <div class="row">
               <div class="col-lg-4 col-sm-4">
                 <fieldset>
                   <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
@@ -589,26 +738,22 @@ https://templatemo.com/tm-568-digimedia
               </div>
               <div class="col-lg-4 col-sm-4">
                 <fieldset>
-                  <select   autocomplete="on" required></select>
-                </fieldset>
-              </div><div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Your email id " autocomplete="on" required>
-                  </fieldset>
-              </div><div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="years of experience" autocomplete="on" required>
+                  <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
+                   
                 </fieldset>
               </div>
-              
               <div class="col-lg-4 col-sm-4">
                 <fieldset>
                   <button type="submit" class="main-button">Submit</button>
                 </fieldset>
               </div>
-            </div>
-          </form>
-        </div>
+              
+               <div class="start-btn">
+                <a href="#">Registration</a>
+               </div>
+              </div>
+              </form>
+                       </div>-->
       </div>
     </div>
   </div>
@@ -1002,15 +1147,6 @@ https://templatemo.com/tm-568-digimedia
 
   </script>-->
   
-  <py-script> 
-    
-    
-  
-  
-  
-  
-  
-  </py-script>
    
   <script src="assets/js/script.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
