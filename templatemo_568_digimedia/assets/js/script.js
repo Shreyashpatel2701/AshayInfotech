@@ -5,7 +5,7 @@ counters.forEach((counter) => {
   const updateCounter = () => {
     const target = +counter.getAttribute("data-target");
     const count = +counter.innerText;
-    const increment = target / 2000;
+    const increment = target / 1000;
     if (count < target) {
       counter.innerText = `${Math.ceil(count + increment)}`;
       setTimeout(updateCounter, 1);

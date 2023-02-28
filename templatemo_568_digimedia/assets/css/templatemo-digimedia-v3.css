@@ -1912,6 +1912,21 @@ form#contact button:hover {
   color: #fff!important;
 }
 
+select {
+  border-radius: 25px;
+  background: #fff!important;
+  border: #4da6e7;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #fff!important;
+  color:  #4da6e7;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
 
 
 
