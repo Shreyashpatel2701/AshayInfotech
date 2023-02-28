@@ -7,7 +7,7 @@ app.get('/',(req, res)=>{
  res.send("hello!!")
 })
 
-
+app.use(express.static('public'));
 
 app.listen(PORT, ()=>{
     
