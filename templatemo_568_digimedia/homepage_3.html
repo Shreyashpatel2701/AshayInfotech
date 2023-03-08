@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>DigiMedia - Creative SEO HTML5 Template</title>
+    <title>Ashay Infotech- It Solves Everything...</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">-->
+    
+
+    
        <!-- FontAwesome Icons -->
        <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"-->
     
@@ -47,16 +52,24 @@ https://templatemo.com/tm-568-digimedia
    
    <!--***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
+    <div id="loader-wrapper">            
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!--
     <div class="preloader-inner">
-      
-      <span class="dot"></span>
+       
+        <span class="dot"></span>
       <div class="dots">
         <span style="background-color: orange; "></span>
         <span style="background-color:  whitesmoke;border-color:black"></span>
        <span style="background-color: green;" ></span>
       </div>
     </div>
-  </div>
+       -->
+  
+ </div>
   <!-- ***** Preloader End ***** -->
 
    <!-- Pre-header Starts -->
@@ -66,8 +79,8 @@ https://templatemo.com/tm-568-digimedia
       <div class="row">
         <div class="col-lg-8 col-sm-8 col-7">
              <ul class="info">
-            <li><a href="#"><i class="fa fa-envelope"></i>sales@ashayinfotech.com</a></li>
-            <li><a href="#"><i class="fa fa-phone"></i>+917507978649</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i>sales@ashayinfo.com</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>+919503045666 | +9196373766164</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-sm-4 col-5">
@@ -100,9 +113,10 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#about">About US</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
-              <li class="scroll-to-section"><a href="#carrers">Carrers</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Products</a></li>
               <li class="scroll-to-section"><a href="#blog">Blogs</a></li>
+              <li class="scroll-to-section"><a href="#bottom">Carrers</a></li>
+              <li class="scroll-to-section"><a href="#testimonial">Testimonial</a></li>
               <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Contact Us</a></div></li> 
              
             </ul>        
@@ -128,28 +142,36 @@ https://templatemo.com/tm-568-digimedia
                   <div class="col-lg-12">
                     <h6>Ashay Infotech</h6>
                     <h2>IT Solves Everything...</h2>
-                    <p>When Ashay Infotech first set out on its journey, it had a grand vision - to revolutionize the way businesses approach technology. Fueled by a passion for delivering unparalleled services and a desire to give businesses a new dimension of growth, Ashay Infotech embarked on a path of innovation and excellence. And as the years have passed, it has become clear that this was a journey worth taking - for Ashay Infotech and for the businesses it serves.
+                    <p>Ashay Infotech has established itself as a trendsetter in the provision of top-notch services to its esteemed clientele. The company is driven by an unwavering desire to empower businesses with innovative tools that allow them to stay ahead of the fierce competition prevalent in today's corporate world.
+                      At Ashay Infotech, we understand that our clients' primary objective is to proactively leverage the endless opportunities presented by modern-day technology to enhance their operations. As such, we prioritize understanding our clients' unique needs, ensuring that we deliver services that are tailored to their specific requirements, at a pace that suits them, with an unyielding focus on quality and exceptional value.
+                      
                      
                     </p>
+                    
+                     
                   </div>
-                  <div class="col-lg-12">
+                  <!--<div class="col-lg-12">
                     <div class="border-first-button scroll-to-section">
                       <a href="#contact">Free Quote</a>
                     </div>
-                  </div>
+                  </div>-->
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <video height="auto" width="680" controls autoplay muted loop><source src="assets/images/Videos/Videos.mp4" type="video/mp4"></video>
+                <video height="auto" width="100%" controls autoplay muted loop><source src="assets/images/Videos/Videos.mp4" type="video/mp4"></video>
               </div>
             </div>
           </div>
+          
+          
         </div>
       </div>
     </div>
   </div>
+
+  
 
   <div id="about" class="about section">
     <a href="#about"></a>
@@ -159,7 +181,7 @@ https://templatemo.com/tm-568-digimedia
           <div class="row">
             <div class="col-lg-6">
               <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img height="auto" src="assets/images/Gif/C1.gif" alt="">
+                <img  height="auto" src="assets/images/Gif/C1.gif" alt="">
               </div>
             </div>
             <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -177,27 +199,32 @@ https://templatemo.com/tm-568-digimedia
                 <div class="col-lg-4 col-sm-4">
                   <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="counter-container">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zm40-89.3l0 0 0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0zm160 0l0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0 0 0z"/></svg>
-                      <div class="counter" data-target="2300"></div>
-                      <span> HAPPY CLIENTS</span>
+                      <img src="assets/images/Logo/customer.png" >
+                      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zm40-89.3l0 0 0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0zm160 0l0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0 0 0z"/></svg>-->
+                      <div class="counter" data-target="2500"></div>
+                      <span style="text-align: center;"> HAPPY CLIENTS</span>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
                   <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="counter-container">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"/></svg>
+                      <img src="assets/images/Logo/consultation.png" >
+                     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"/></svg>-->
                       <div class="counter" data-target="6500"></div>
-                      <span>Consultation Given</span>
+                      <span style="text-align: center;">CONSULTATION  </span>
+                      <span style="text-align: center;"> GIVEN </span>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
                   <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="counter-container">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M43 64a64 64 0 1 1 128 0A64 64 0 1 1 43 64zM4.9 233.4C8.3 191.9 43 160 84.6 160h44.8c27 0 51 13.4 65.5 34.1c-2.7 1.9-5.2 4-7.5 6.3l-64 64c-21.9 21.9-21.9 57.3 0 79.2L171 391.2V464c0 26.5-21.5 48-48 48H91c-26.5 0-48-21.5-48-48V348.3C16.5 338.8-1.7 312.4 .8 282.7l4.1-49.3zM427 64a64 64 0 1 1 128 0A64 64 0 1 1 427 64zM410.6 200.4c-2.3-2.3-4.9-4.4-7.5-6.3c14.5-20.7 38.6-34.1 65.5-34.1h44.8c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6V464c0 26.5-21.5 48-48 48H475c-26.5 0-48-21.5-48-48V391.2l47.6-47.6c21.9-21.9 21.9-57.3 0-79.2l-64-64zM251 240v32h96V240c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l64 64c9.4 9.4 9.4 24.6 0 33.9l-64 64c-6.9 6.9-17.2 8.9-26.2 5.2s-14.8-12.5-14.8-22.2V336H251v32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2z"/></svg>
-                      <div class="counter" data-target="6500"></div>
-                      <span>Solutions</span>
+                      <img src="assets/images/Logo/solutions.png" >
+                     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M43 64a64 64 0 1 1 128 0A64 64 0 1 1 43 64zM4.9 233.4C8.3 191.9 43 160 84.6 160h44.8c27 0 51 13.4 65.5 34.1c-2.7 1.9-5.2 4-7.5 6.3l-64 64c-21.9 21.9-21.9 57.3 0 79.2L171 391.2V464c0 26.5-21.5 48-48 48H91c-26.5 0-48-21.5-48-48V348.3C16.5 338.8-1.7 312.4 .8 282.7l4.1-49.3zM427 64a64 64 0 1 1 128 0A64 64 0 1 1 427 64zM410.6 200.4c-2.3-2.3-4.9-4.4-7.5-6.3c14.5-20.7 38.6-34.1 65.5-34.1h44.8c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6V464c0 26.5-21.5 48-48 48H475c-26.5 0-48-21.5-48-48V391.2l47.6-47.6c21.9-21.9 21.9-57.3 0-79.2l-64-64zM251 240v32h96V240c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l64 64c9.4 9.4 9.4 24.6 0 33.9l-64 64c-6.9 6.9-17.2 8.9-26.2 5.2s-14.8-12.5-14.8-22.2V336H251v32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2z"/></svg>-->
+                     <div class="counter" data-target="4500"></div>
+                      <span style="text-align: center;">SOLUTIONS </span>
+                      <span style="text-align: center;"> GIVEN </span>
                     </div>
                   </div>
                 </div>
@@ -263,6 +290,51 @@ https://templatemo.com/tm-568-digimedia
               </div>
             </div>
           </div>
+          <div id="features" class="features section" style="margin-top: 5px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="features-content">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                        
+                          <h4>Exceptional Customer Service</h4>
+                          <div class="line-dec"></div>
+                          <p>We always go the extra mile and <br>always will</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                          
+                          <h4>Best prices in market</h4>
+                          <div class="line-dec"></div>
+                          <p>Prices such which will keep you smiling.That what matters the most</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                          
+                          <h4>Prompt <br> Response </h4>
+                          <div class="line-dec"></div>
+                          <p>We will be prompt to understand your needs and cater it.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                       
+                          <h4>Best Selection and Offering</h4>
+                          <div class="line-dec"></div>
+                          <p>Best products to suite your needs at the best prices with best services.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -287,7 +359,7 @@ https://templatemo.com/tm-568-digimedia
         <div class="col-lg-12">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h6>Our Services</h6>
-            <h4>What Our Company <em>Provides</em></h4>
+            <h4>What Ashay Infotech <em>Provides</em></h4>
             <div class="line-dec"></div>
           </div>
         </div>
@@ -343,9 +415,17 @@ https://templatemo.com/tm-568-digimedia
                       <div>
                         <div class="thumb">
                           <div class="row">
+                            <div class="col-lg-12 align-self-center"> <div class="col-lg-12 align-self-center"> <h4  style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 28px;
+                              font-weight: 700;
+                              color: #4da6e7;
+                          
+                              margin-bottom: 5px;"
+                              >  Liscensing  Solutions  </div> </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="left-text">
-                                <h4>Corporate Solutions&amp; Automation </h4>
+                              <div class="left-text" style="margin-top: 10px;">
+                                
                                 <p>
                                   At Ashay Infotech we offer a wide range of software licenses, including Microsoft, Office 365, Adobe, AutoCAD, antivirus, and endpoint protection.
                                    <br>
@@ -384,9 +464,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">
                           <div class="row">
+                            <div class="col-lg-12 align-self-center"> <h4 style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">Cloud   Solutions</h4> </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="left-text">
-                                <h4>Cloud  &amp; Solutions</h4>
+                              <div class="left-text" style="margin-top: 10px;">
+                                
                                 <p>Ashay Infotech provides cloud solutions services through popular cloud platforms such as Microsoft Azure and Amazon Web Services (AWS). These cloud solutions allow businesses to store, manage, and process their data and applications on remote servers accessed through the internet, instead of maintaining physical hardware.
                                   
                                   <br>
@@ -419,9 +506,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">
                           <div class="row">
-                            <div class="col-lg-6 align-self-center">
+                            <div class="col-lg-12 align-self-center"> <h4 style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 28px;
+                              font-weight: 700;
+                              color: #4da6e7;
+                          
+                              margin-bottom: 5px;">Software Development  Automation </h4> </div>
+                            <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                               <div class="left-text">
-                                <h4>Software Development &amp; Automation </h4>
+                                
                                 <p>Ashay Infotech, with over 30 years of experience in providing governmental solutions, offers a range of software and development services in various languages, including .NET. Our team of experts is highly skilled in developing custom software applications and websites using the latest technologies and programming languages.
                                   <br>
                                   
@@ -457,9 +551,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">
                           <div class="row">
+                            <div class="col-lg-12 align-self-center"> <h4 style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 28px;
+                              font-weight: 700;
+                              color: #4da6e7;
+                          
+                              margin-bottom: 5px;">AMC  Services</h4> </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="left-text">
-                                <h4>AMC &amp; Services</h4>
+                              <div class="left-text" style="margin-top: 10px;">
+                                
                                 <p>As technology continues to evolve, it is critical for organizations to keep their IT infrastructure, network firewall, and servers up-to-date and functioning optimally. Ashay Infotech provides comprehensive annual maintenance services for these critical components to ensure smooth and efficient operation.
                                   <br>
                                   
@@ -493,9 +594,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">
                           <div class="row">
-                            <div class="col-lg-6 align-self-center">
+                            <div class="col-lg-12 align-self-center">  <h4 style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">IT  Consultation</h4> </div>
+                            <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                               <div class="left-text">
-                                <h4>IT &amp; Consultation</h4>
+                               
                                 <p>At Ashay Infotech, we offer IT infrastructure consultation services for a variety of industries, including corporate offices, education institutes, banking sectors, and governmental organizations. With over 30 years of experience in the field, our team of experts has the knowledge and expertise to provide customized IT infrastructure solutions that meet the unique needs of your business.
                                   <br>
                                   
@@ -531,9 +639,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">
                           <div class="row">
-                            <div class="col-lg-6 align-self-center">
+                            <div class="col-lg-12 align-self-center">    <h4 style="text-align: center;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 28px;
+                              font-weight: 700;
+                              color: #4da6e7;
+                          
+                              margin-bottom: 5px;">Security Compliance</h4> </div>
+                            <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                               <div class="left-text">
-                                <h4>Security &amp; Compliance</h4>
+                              
                                 <p style="color: black;">At Ashay Infotech, we understand the importance of ensuring security compliance for businesses in today's digital landscape. That's why we offer a range of security compliance services to help protect our clients' sensitive information and assets.
                                   <br>
                                   Our team of experts is well-versed in a variety of compliance standards and regulations. We work closely with our clients to assess their unique security needs and develop customized solutions to meet their compliance requirements.
@@ -610,7 +725,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div>
                         <div class="thumb">                 
                           <span class="icon"><img src="assets/images/service-icon-04.png" alt=""></span>
-                          ERP <br> Systems  
+                          Storage <br> Solutions  
                         </div>
                       </div>
                      
@@ -637,9 +752,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                         <div>
                           <div class="thumb">
                             <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                              <div class="col-lg-12 align-self-center"> <h4  style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;"> Hardware   Solutions</h4></div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4> Hardware  &amp; Solutions </h4>
+                                 
                                   <p>At Ashay Infotech, we offer a wide range of hardware solutions to meet the technology needs of businesses of all sizes. Our team of experts has extensive experience in providing high-quality hardware solutions that are tailored to the unique needs of our clients.
                                     <br>
                                     We understand the importance of having reliable and efficient hardware to keep your business running smoothly. That's why we offer a variety of solutions, including printers, scanners, and other peripherals. We work closely with our clients to assess their needs and provide customized hardware solutions that are designed to improve their productivity and efficiency.
@@ -673,9 +795,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                         <div>
                           <div class="thumb">
                             <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                              <div class="col-lg-12 align-self-center">  <h4 style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">Video Conferencing </h4> </div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4>Video Conferencing </h4>
+                                  
                                   <p>Ashay Infotech provides video conferencing solutions to help businesses communicate and collaborate effectively. Our solutions are designed to make remote work and virtual meetings seamless and hassle-free. With our video conferencing solutions, businesses can hold virtual meetings, present presentations, and share screen and documents with ease.
                                     <br>
                                     
@@ -710,9 +839,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                         <div>
                           <div class="thumb">
                             <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                              <div class="col-lg-12 align-self-center">     <h4 style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;" >Data  Processing</h4> </div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4>Data &amp; Processing</h4>
+                               
                                   <p>At Ashay Infotech, we provide data processing solutions to help businesses effectively manage and process their data. Our solutions are designed to simplify data processing and provide valuable insights, enabling businesses to make informed decisions.
                                     <br>
                                     We offer data processing solutions from leading providers, including Apache Hadoop, Apache Spark, and Apache Storm. These solutions provide a flexible and scalable platform for big data processing and can handle large volumes of data in real-time. Our solutions are also designed to integrate with a variety of data sources, making it easy for businesses to manage and process their data.
@@ -744,19 +880,26 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <li>
                         <div>
                           <div class="thumb">
-                            <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                            <div class="row"> 
+                              <div class="col-lg-12 align-self-center">       <h4 style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">Storage  Solutions</h4> </div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4>ERP  &amp; Systems</h4>
-                                  <p>At Ashay Infotech, we understand that managing business operations can be a complex and time-consuming process. That's why we offer comprehensive ERP (Enterprise Resource Planning) systems to help businesses streamline their operations, improve efficiency, and increase profitability.
+                             
+                                  <p>Ashay Infotech is a leading provider of storage solutions, catering to a wide range of businesses and industries. Our extensive range of products includes Network Attached Storage (NAS) drives, which are ideal for businesses of all sizes.
                                     <br>
-                                    Our ERP systems are designed to integrate all aspects of a business, including finance, inventory, production, sales, and marketing, into a single, unified system. By providing real-time data and reporting, our ERP systems help businesses make informed decisions and improve their overall performance.
+                                    NAS drives are essentially file servers that are connected to a network and provide a centralized storage solution for multiple users. They are highly reliable and secure, making them an ideal choice for businesses that need to store and share large amounts of data.
                                     <br>
-                                    We work closely with our clients to understand their unique business needs and customize our ERP solutions accordingly. 
+                                    At Ashay Infotech, we offer a range of NAS drives that are designed to meet the specific needs of different businesses. Our NAS drives come in various top-quality brands, ranging from small units for home offices to large units for enterprise-level businesses.
                                     <br>
-                                    In addition to ERP system implementation, we also provide training, maintenance, and ongoing support services to ensure that our clients are getting the most out of their investment. 
+                                    We also provide custom-built NAS drives that are tailored to meet the specific needs of businesses that require a more customized storage solution. Our team of experts works closely with clients to understand their specific requirements and design and build a NAS drive that meets those needs.
                                     <br>
-                                    If you're looking to improve your business operations and increase profitability, contact us today to learn more about our ERP systems and how we can help your business succeed.</p>
+                                    In conclusion, if you're looking for a reliable and secure storage solution for your business, look no further than Ashay Infotech. Our range of NAS drives and other storage solutions are designed to meet the specific needs of businesses of all sizes, and our team of experts is always on hand to provide support and advice.</p>
                                   <!-- <div class="ticks-list"><span><i class="fa fa-check"></i> Optimized Template</span> <span><i class="fa fa-check"></i> Data Info</span> <span><i class="fa fa-check"></i> SEO Analysis</span>
                                     <span><i class="fa fa-check"></i> Data Info</span> <span><i class="fa fa-check"></i> SEO Analysis</span> <span><i class="fa fa-check"></i> Optimized Template</span></div> -->
                                   <p></p>
@@ -765,13 +908,13 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                                   <div class="border-first-button scroll-to-section">
                                     <a href="#contact">Free Quote</a>
                                     <span></span>
-                                    <a href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20ERP%20Systems.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Get In touch</a>
+                                    <a href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Storage%20Solutions.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Get In touch</a>
                                   </div>
                                 </div>
                               </div>
                               <div class="col-lg-6 align-self-center">
                                 <div class="right-image">
-                                  <img src="assets/images/Gif/ERP.gif" alt="">
+                                  <img src="assets/images/Gif/Server2.gif"  alt="">
                                 </div>
                               </div>
                             </div>
@@ -782,9 +925,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                         <div>
                           <div class="thumb">
                             <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                              <div class="col-lg-12 align-self-center"> <h4 style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">Network  Services</h4> </div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4>Network &amp; Services</h4>
+                                  
                                   <p>Network security is a critical concern for businesses of all sizes, and Ashay Infotech provides top-notch solutions through network firewalls. Our firewall solutions are provided by leading companies such as Sophos, Fortigate, and SonicWall. These firewalls help businesses protect their network and data from unauthorized access, malware, and other threats.
 
                                     A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. The purpose of a firewall is to ensure that only authorized traffic is allowed to enter or exit the network.
@@ -806,7 +956,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                               </div>
                               <div class="col-lg-6 align-self-center">
                                 <div class="right-image">
-                                  <img src="assets/images/SD2.gif" alt="">
+                                  <img src="assets/images/Gif/SD2.gif" alt="">
                                 </div>
                               </div>
                             </div>
@@ -817,9 +967,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                         <div>
                           <div class="thumb">
                             <div class="row">
-                              <div class="col-lg-6 align-self-center">
+                              <div class="col-lg-12 align-self-center"> <h4 style="text-align: center;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: #4da6e7;
+                            
+                                margin-bottom: 5px;">Examination  solutions</h4> </div>
+                              <div class="col-lg-6 align-self-center" style="margin-top: 10px;">
                                 <div class="left-text">
-                                  <h4>Examination &amp; solutions</h4>
+                                  
                                   <p>Ashay Infotech, with over 30 years of experience in examination solutions, provides secure online examination solutions for government, banking, and college exams. Our solutions are designed to streamline the examination process and provide a secure platform for students to take exams from the comfort of their own homes.
                                     <br>
                                     Our solutions use the latest technology and security measures to ensure the safety and confidentiality of exam results. Our solutions provide real-time monitoring and secure access to results, making it easy for institutions to manage and grade exams. Additionally, our solutions are designed to be scalable, making them ideal for exams of any size.
@@ -901,13 +1058,13 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   </div> -->
 
 
-  <div id="portfolio" class="our-portfolio section">
+  <div style="margin-top: 10px;" id="portfolio" class="our-portfolio section">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-            <h6>Our Portofolio</h6>
-            <h4>See Our Recent <em>Projects</em></h4>
+            <h6>Our Product Line</h6>
+            <h4>Our <em>Collaboration</em></h4>
             <div class="line-dec"></div>
           </div>
         </div>
@@ -953,13 +1110,13 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
               <div class="down-content">
                 <h4>Dell</h4>
                 <span></span>
-                <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+                <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Server IBM </span></div>
              
-                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Commercial Laptops </span></div>
               
-                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Consumer Laptops </span></div>
                
-                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Accessories </span></div>
                 
                
 
@@ -967,7 +1124,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                
                 <div class="col-lg-12" style="padding: 15px;text-align: center;">
                   <div class="border-first-button scroll-to-section">
-                    <a  href="#contact">Contact Us</a>
+                    <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20DELL%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
                   </div>
                 </div>
               </div>
@@ -983,16 +1140,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
             <div class="down-content">
               <h4>Lenovo</h4>
               <span></span>
-              <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
-           
-              <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
-            
-              <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+              <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Server IBM </span></div>
              
-              <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Commercial Laptops </span></div>
+              
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Consumer Laptops </span></div>
+               
+                <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Accessories </span></div>
               <div class="col-lg-12" style="padding: 15px;text-align: center;">
                 <div class="border-first-button scroll-to-section">
-                  <a  href="#contact">Contact Us</a>
+                  <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Lenovo%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -1009,16 +1166,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
           <div class="down-content">
             <h4>Cadmate</h4>
             <span></span>
-            <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+            <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Network Licensing </span></div>
          
-            <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+            <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> 2D & 3D CAD </span></div>
           
-            <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+            <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Lifetime/perpetual </span></div>
            
-            <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+            
             <div class="col-lg-12" style="padding: 15px;text-align: center;">
               <div class="border-first-button scroll-to-section">
-                <a  href="#contact">Contact Us</a>
+                <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20CADMATE%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
               </div>
             </div>
           </div>
@@ -1035,16 +1192,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
         <div class="down-content">
           <h4>Hp</h4>
           <span></span>
-          <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
-       
-          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+          <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Server IBM </span></div>
+             
+          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Commercial Laptops </span></div>
         
-          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Consumer Laptops </span></div>
          
-          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+          <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Accessories </span></div>
           <div class="col-lg-12" style="padding: 15px;text-align: center;">
             <div class="border-first-button scroll-to-section">
-              <a  href="#contact">Contact Us</a>
+              <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Hp%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
             </div>
           </div>
         </div>
@@ -1061,16 +1218,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
       <div class="down-content">
         <h4>AutoDesk</h4>
         <span></span>
-        <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+        <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> AEC Collections </span></div>
      
-        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> BIM 360 </span></div>
       
-        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Inventor </span></div>
        
-        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+        <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Autocad Lt/3D</span></div>
         <div class="col-lg-12" style="padding: 15px;text-align: center;">
           <div class="border-first-button scroll-to-section">
-            <a  href="#contact">Contact Us</a>
+            <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20AutoDesk%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
           </div>
         </div>
       </div>
@@ -1087,16 +1244,14 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
     <div class="down-content">
       <h4>Quickheal</h4>
       <span></span>
-      <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+      <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Antivirus </span></div>
    
-      <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+      <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Seculite Endpoint </span></div>
     
-      <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
      
-      <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
       <div class="col-lg-12" style="padding: 15px;text-align: center;">
         <div class="border-first-button scroll-to-section">
-          <a  href="#contact">Contact Us</a>
+          <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20QuickHeal%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
         </div>
       </div>
     </div>
@@ -1113,16 +1268,17 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <div class="down-content">
     <h4>Sophos</h4>
     <span></span>
-    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Firewall </span></div>
  
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Endpoint Protection's </span></div>
   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Network Security </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Sophos Swtiches </span></div>
    
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+   
     <div class="col-lg-12" style="padding: 15px;text-align: center;">
       <div class="border-first-button scroll-to-section">
-        <a  href="#contact">Contact Us</a>
+        <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Sophos%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
       </div>
     </div>
   </div>
@@ -1140,16 +1296,17 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <div class="down-content">
     <h4>Fortinet</h4>
     <span></span>
-    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Firewall </span></div>
  
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Endpoint Protection's </span></div>
   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
-   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Network Security </span></div>
+    
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Fortinet Swtiches </span></div>
+    
     <div class="col-lg-12" style="padding: 15px;text-align: center;">
       <div class="border-first-button scroll-to-section">
-        <a  href="#contact">Contact Us</a>
+        <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Fortinet%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
       </div>
     </div>
   </div>
@@ -1167,16 +1324,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <div class="down-content">
     <h4>Microsoft Gold</h4>
     <span></span>
-    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> MS Office 365 </span></div>
  
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Box/Deatils/FPP License  </span></div>
   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Volume/Paper License </span></div>
    
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+   
     <div class="col-lg-12" style="padding: 15px;text-align: center;">
       <div class="border-first-button scroll-to-section">
-        <a  href="#contact">Contact Us</a>
+        <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Microsoft%20Gold%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
       </div>
     </div>
   </div>
@@ -1190,18 +1347,18 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
     <img src="assets/images/Logo/Adobe.png" alt="">
   </div>
   <div class="down-content">
-    <h4>Hp</h4>
+    <h4>Adobe</h4>
     <span></span>
-    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Creative Cloud All Apps </span></div>
  
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> InDesign </span></div>
   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> After Effects </span></div>
    
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Photoshop </span></div>
     <div class="col-lg-12" style="padding: 15px;text-align: center;">
       <div class="border-first-button scroll-to-section">
-        <a  href="#contact">Contact Us</a>
+        <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Adobe%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
       </div>
     </div>
   </div>
@@ -1219,16 +1376,16 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <div class="down-content">
     <h4>Azure</h4>
     <span></span>
-    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;"   class="ticks-list"><span><i class="fa fa-check"></i> Cloud Computing</span></div>
  
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i>  Cloud Apps </span></div>
   
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Virtual Machines </span></div>
    
-    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> HD CCTV's </span></div>
+    <div style="text-align: center;" class="ticks-list"><span><i class="fa fa-check"></i> Virtual Server </span></div>
     <div class="col-lg-12" style="padding: 15px;text-align: center;">
       <div class="border-first-button scroll-to-section">
-        <a  href="#contact">Contact Us</a>
+        <a  href="https://wa.me/919503045666?text=Hello,%20Ashay%20Team%20we%20have%20requirements%20for%20Microsoft%20Azure%20Products.%20Please%20give%20us%20a%20call%20back%20for%20more%20discussion">Contact Us</a>
       </div>
     </div>
   </div>
@@ -1275,8 +1432,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div class="thumb">
                         <iframe width="100%" height="auto" src="https://www.youtube.com/embed/6ole5xROcQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="overlay-effect">
-                          <a href="#"><h4>Project One</h4></a>
-                          <span>SEO &amp; Marketing</span>
+                          <a href="#"><h4>Microsoft</h4></a>
+                          <span>365</span>
                         </div>
                       </div>
                     </div>
@@ -1286,8 +1443,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div class="thumb">
                         <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Uh9643c2P6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="overlay-effect">
-                          <a href="#"><h4>Second Project</h4></a>
-                          <span>Advertising &amp; Marketing</span>
+                          <a href="#"><h4>Microsoft</h4></a>
+                          <span>Windows 11</span>
                         </div>
                       </div>
                     </div>
@@ -1297,8 +1454,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div class="thumb">
                         <iframe width="100%" height="auto" src="https://www.youtube.com/embed/oPSHs71mTVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="overlay-effect">
-                          <a href="#"><h4>Project Three</h4></a>
-                          <span>Digital &amp; Marketing</span>
+                          <a href="#"><h4>Microsoft</h4></a>
+                          <span> Azure</span>
                         </div>
                       </div>
                     </div>
@@ -1308,8 +1465,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                       <div class="thumb">
                         <iframe width="100%" height="auto" src="https://www.youtube.com/embed/9tAfh1VfAXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="overlay-effect">
-                          <a href="#"><h4>Fourth Project</h4></a>
-                          <span>SEO &amp; Advertising</span>
+                          <a href="#"><h4>Sophos</h4></a>
+                          <span>Firewall</span>
                         </div>
                       </div>
                     </div>
@@ -1322,8 +1479,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                     <div class="thumb">
                       <img src="assets/images/vt1.jpg" alt="">
                       <div class="inner-content">
-                        <h4>Project One</h4>
-                        <span>SEO &amp; Marketing</span>
+                        <h4>Microsoft</h4>
+                        <span>365</span>
                       </div>
                     </div>
                   </div>
@@ -1331,8 +1488,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                     <div class="thumb">
                       <img src="assets/images/vt2.jpg" alt="">
                       <div class="inner-content">
-                        <h4>Second Project</h4>
-                        <span>Advertising &amp; Marketing</span>
+                        <h4>Microsoft</h4>
+                        <span>windows 11</span>
                       </div>
                     </div>
                   </div>
@@ -1340,8 +1497,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                     <div class="thumb">
                       <img src="assets/images/vt3.png" alt="Marketing">
                       <div class="inner-content">
-                        <h4>Project Three</h4>
-                        <span>Digital &amp; Marketing</span>
+                        <h4>Microsoft </h4>
+                        <span>Azure</span>
                       </div>
                     </div>
                   </div>
@@ -1349,8 +1506,8 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
                     <div class="thumb">
                       <img src="assets/images/vt4.png" alt="SEO Work">
                       <div class="inner-content">
-                        <h4>Fourth Project</h4>
-                        <span>SEO &amp; Advertising</span>
+                        <h4>Sophos</h4>
+                        <span>Firewall</span>
                       </div>
                     </div>
                   </div>
@@ -1369,267 +1526,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
      
   
   
-  <!--*************************************************************************************************************************
-
-
-       CARRERS PAGE HERE 
-
-
-   *************************************************************************************************************************-->
-      
-   <div id="free-quote" class="free-quote">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h6>Contact Us</h6>
-            <h4>Get In Touch With Us <em>Now</em></h4>
-            <div class="line-dec"></div>
-          </div>
-        </div>
-        <div id="carrer" class="contact-us section">
-          <div class="container">
-            <div class="row">
-               <!-- <div class="col-lg-6 offset-lg-3">
-                <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                  <h6>Contact Us</h6>
-                  <h4>Get In Touch With Us <em>Now</em></h4>
-                  <div class="line-dec"></div>
-                </div>
-              </div>-->
-              <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                <form  action="" method="post">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="contact-dec">
-                       <img src="assets/images/contact-dec-v3.png" alt="">
-                      </div>
-                    </div>
-                    <div class="col-lg-5">
-                      <div id="map">
-                        <img src="">
-                      </div>
-                    </div>
-                    <div class="col-lg-7">
-                      <div class="fill-form">
-                        <div class="row">
-                              
- 
-
-                           <!--<div class="col-lg-4">
-                            <div class="info-post">
-                              <div class="icon">
-                                <img src="assets/images/phone-icon.png" alt="">
-                                <a href="#">010-020-0340</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4">
-                            <div class="info-post">
-                              <div class="icon">
-                                <img src="assets/images/email-icon.png" alt="">
-                                <a href="#">our@email.com</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4">
-                            <div class="info-post">
-                              <div class="icon">
-                                <img src="assets/images/location-icon.png" alt="">
-                                <a href="#">123 Rio de Janeiro</a>
-                              </div>
-                            </div>
-                          </div>-->
-                           
-                            <div class="col-lg-6">
-                            <fieldset>
-                              <input type="name" name="name" id="name-cv" placeholder="Name" autocomplete="on" required>
-                            </fieldset>
-                            <fieldset>
-                              <input type="text" name="email" id="email-cv" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" placeholder="Your Email" required="">
-                            </fieldset>
-                            <fieldset style="text-align: left;">
-                              <p style="padding-left: 15px;">Openings</p>
-                              <select name="country">
-                              <option>Software Developer</option>
-                              <option>Software Tester</option>
-                              <option>Sales Executive</option>
-                              <option>hello </option>
-                              <option>Sales Executive</option>
-                             </select>
-                            </fieldset>
-                            <fieldset style="text-align: left;" >
-                              <p style="padding-left: 15px;">Openings</p>
-                                     <select name="country">
-                                     <option>Fresher</option>
-                                     <option>1-2+</option>
-                                     <option>2-5+</option>
-                                    </select>
-                            </fieldset>
-                            
-                          </div>
-                                        <div class="col-lg-6">
-                                      <fieldset >
-                                        <textarea name="message" type="text" class="form-control" id="message-cv" placeholder="Message" required=""></textarea>  
-                                       </fieldset >
-                                       
-                                       <fieldset>
-                                        <p >Upload your cv (pdf only )</p>
-                                        <input  type="file"  accept=".pdf"  required="">
-                                      </fieldset>
-                                  </div>
-                                   <div class="col-lg-12">
-                                  <fieldset>
-                                  <button type="submit" id="form-submit-carrer" class="main-button" >Send Message Now</button>
-
-                                  
-                                  <!--
-                                  <script>
-                                    
-                                    function ValidateEmail(inputText)
-                                    {
-                                    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                                    if(inputText.value.match(mailformat))
-                                    {
-                                    alert("Valid email address!");
-                                    document.getElementById('form-submit').focus();
-                                    return true;
-                                    }
-                                    else
-                                    {
-                                    alert("You have entered an invalid email address!");
-                                    document.getElementById('form-submit').focus();
-                                    return false;
-                                    }
-                                    }
-
-                                    var btn = document.getElementById("form-submit");
-                                    btn.addEventListener('click',function(e){
-                                           e.preventDefault()
-                                          
-                                        
-                                        
-                                        
-                                         .then(
-                                          message => alert(message)
-                                        );
-                                    })
-
-                                   </script> --> 
-                                </fieldset>
-                                </div>
-                             
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-        
-        
-                <!--<div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                 <form id="search" action="#" method="GET">
-               <div class="row">
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
-                   
-                </fieldset>
-              </div>
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <button type="submit" class="main-button">Submit</button>
-                </fieldset>
-              </div>
-              
-               <div class="start-btn">
-                <a href="#">Registration</a>
-               </div>
-              </div>
-              </form>
-                       </div>-->
-      </div>
-    </div>
-  </div>
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   <!--<div id="free-quote" class="free-quote">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 offset-lg-4">
-          <div class="section-heading  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.3s">
-            <h6>Get Your Free Quote</h6>
-            <h4>Grow With Us Now</h4>
-            <div class="line-dec"></div>
-          </div>
-        </div>
-        <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.8s">
-          <form id="search" action="#" method="GET">
-            <div class="row">
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="web" name="web" class="website" placeholder="Your website URL..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-4 col-sm-4">
-                <fieldset>
-                  <button type="submit" class="main-button">Get Quote Now</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      
-      </div>
-    </div>
-  </div>--> 
+  
 
 
     <!--*************************************************************************************************************************
@@ -1645,10 +1542,10 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <div id="blog" class="blog">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="section-heading">
-            <h6>Recent News</h6>
-            <h4>Check  Blog <em>Posts</em></h4>
+        <div class="col-lg-12">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Recent Blogs</h6>
+            <h4>Latest technological <em>Updates </em></h4>
             <div class="line-dec"></div>
           </div>
         </div>
@@ -1674,7 +1571,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
               <div class="col-lg-12">
                 <div class="post-item">
                   <div class="thumb">
-                    <a href="https://www.fortinet.com/resources/cyberglossary/recent-cyber-attacks"><img src="assets/images/blog-post-02.jpg" alt=""></a>
+                    <a href="https://www.fortinet.com/resources/cyberglossary/recent-cyber-attacks"><img src="assets/images/Cyberattack.jpeg" alt=""></a>
                   </div>
                   <div class="right-content">
                     <span class="category">Cyber Attacks</span>
@@ -1687,7 +1584,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
               <div class="col-lg-12">
                 <div class="post-item">
                   <div class="thumb">
-                    <a href="https://azure.microsoft.com/en-in/solutions/"><img src="assets/images/blog-post-03.jpg" alt=""></a>
+                    <a href="https://azure.microsoft.com/en-in/solutions/"><img src="assets/images/Microsoft_Azure-Logo.png" alt=""></a>
                   </div>
                   <div class="right-content">
                     <span class="category">Azure </span>
@@ -1700,7 +1597,7 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
-                    <a href="https://www.office.com/"><img src="assets/images/blog-post-04.jpg" alt=""></a>
+                    <a href="https://www.office.com/"><img src="assets/images/Microssoft365.png" alt=""></a>
                   </div>
                   <div class="right-content">
                     <span class="category">Microsoft 365</span>
@@ -1716,7 +1613,15 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
       </div>
     </div>
   </div>  
+<!--
+ /*****************************************************************************************************************
 
+ *************************************************************************************************/
+  
+-->
+
+  
+  
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
@@ -1798,12 +1703,344 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
     </div>
   </div>
 
+  
+  
+  
+  <!--*************************************************************************************************************************
+
+
+       CARRERS PAGE HERE 
+
+
+   *************************************************************************************************************************-->
+   
+   
+   <div id="bottom" class="free-quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Come Join Us</h6>
+            <h4>Grow With Us Now</h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <!--<div id="contact" class="contact-us section">
+          <div class="container">
+            <div class="row">-->
+               <!-- <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <h6>Contact Us</h6>
+                  <h4>Get In Touch With Us <em>Now</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+              </div>-->
+              <div   class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                   <!-- <div class="col-lg-12">
+                      <div class="contact-dec">
+                        <img src="assets/images/contact-dec-v2.png" alt="">
+                      </div>
+                    </div>-->
+                    <!-- <div class="col-lg-5">
+                      <div id="map">
+                        <img src="">
+                      </div>
+                     </div>
+                     -->
+                    <div class="col-lg-12">
+                      <div class="fill-form">
+                        <div class="row">
+                              
+ 
+
+                           <!--<div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/phone-icon.png" alt="">
+                                <a href="#">010-020-0340</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/email-icon.png" alt="">
+                                <a href="#">our@email.com</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="info-post">
+                              <div class="icon">
+                                <img src="assets/images/location-icon.png" alt="">
+                                <a href="#">123 Rio de Janeiro</a>
+                              </div>
+                            </div>
+                          </div>-->
+                           
+                            <div class="col-lg-6">
+                            <fieldset style="padding: 5px;">
+                              <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                            </fieldset>
+                            <fieldset style="padding: 5px;">
+                              <input type="text" name="email" id="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" placeholder="Your Email" required="">
+                            </fieldset>
+                            <fieldset style="padding: 5px;">
+                               <label style="padding: 1px;">Openings</label>
+                              <select  name="openings">
+                              <option>IT Business Development Executive(BDE) (Male)</option>
+                              <option>Inside Sales Executive (Female)</option>
+                              <option>Software Developer</option>
+                              <option>Software Tester </option>
+                              </select>
+                            </fieldset>
+                            <!--<fieldset style="text-align: left;padding: 10px;" >
+                              <p style="padding-left: 15px;">Openings</p>
+                                     <select name="country">
+                                     <option>Fresher</option>
+                                     <option>1-2+</option>
+                                     <option>2-5+</option>
+                                    </select>
+                            </fieldset>
+                          -->
+                          </div>
+                        <div class="col-lg-6">
+                              <fieldset style="padding: 5px;">
+                                <input name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                              </fieldset >
+                              
+                              <fieldset style="padding: 5px;" >
+                                <label style="padding: 1px;">Openings</label>
+                                       <select name="country">
+                                       <option>Fresher</option>
+                                       <option>1-2+</option>
+                                       <option>2-5+</option>
+                                      </select>
+                              </fieldset> 
+                                  <fieldset>
+                                    <div id="upload_button">
+                                      <label style="margin-top: 40px;" >
+                                        <input  accept=".pdf" type="file" ngf-select ng-model="new_files" ng-change="fs.uploadFiles(new_files)"  >
+                                        <span   style="background-color: #4da6e7;font-family:'Poppins', sans-serif" class="btn btn-primary" > Upload Your CV</span>
+                                      </label>
+                                    </div>
+                              </fieldset>
+                              
+                              
+                              </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                             <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
+                              </fieldset>
+                                </div>
+                             
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        
+        
+                <!--<div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                 <form id="search" action="#" method="GET">
+               <div class="row">
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="web" name="web" class="website" placeholder="Your name" autocomplete="on" required>
+                   
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <button type="submit" class="main-button">Submit</button>
+                </fieldset>
+              </div>
+              
+               <div class="start-btn">
+                <a href="#">Registration</a>
+               </div>
+              </div>
+              </form>
+                       </div>-->
+      </div>
+    </div>
+  </div>
+ 
+   
+   
+   
+  <main>
+    <div id="#testimonial"></div>
+    <section class="section-padding pb-0" id="reviews">
+      <div class="container">
+          <div class="row">
+                                                          
+            <div class="col-lg-12 align-self-center">
+              <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h4 style="text-align: center;"> Our <em>Testimonial's</em></h4>
+                <div class="line-dec" ></div>
+              </div>
+            </div>
+
+              <div class="col-12" style="margin-top: 25px;">
+                
+
+                  <div class="owl-carousel reviews-carousel">
+
+                      <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded" style="background-image: url(assets/images/quote-bg-v3.jpg);">
+                          <div class="reviews-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                          </div>
+                          
+                          <p class="text-primary d-block mt-2 mb-0 w-100"> <h6 style="color: white ;"> Best health care </h6>   </p>
+
+                          <p class="reviews-text w-100" style="color: white;">"Ashay Infotech has helped us transform our business with their exceptional IT solutions. Their team is highly skilled, responsive, and always goes above and beyond to ensure our needs are met</p>
+
+                          <img src="assets/images/logo-v1.png" class="img-fluid reviews-image" alt="">
+
+                          <figcaption class="ms-4" >
+                              <strong style="color: white;">Marie</strong>
+
+                              <span  style="color: white;">Patient</span>
+                          </figcaption>
+                      </figure>
+
+                      <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded" style="background-image: url(assets/images/quote-bg-v3.jpg);" >
+                          <div class="reviews-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>  
+                         
+                          </div>
+
+                          <p class="text-primary d-block mt-2 mb-0 w-100" > <h6 style="color: white ;"> Best health care </h6></p>
+
+                          <p class="reviews-text w-100" style="color: white;" >Working with Ashay Infotech has been a game-changer for our organization. Their innovative solutions have significantly improved our productivity and streamlined our processes.</p>
+
+                          <img src="assets/images/logo-v2.png" class="img-fluid reviews-image" alt="">
+
+                          <figcaption class="ms-4">
+                              <strong style="color: white;">Ben Walker</strong>
+
+                              <span style="color: white;">Recovered</span>
+                          </figcaption>
+                      </figure>
+
+                      <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded" style="background-image: url(assets/images/quote-bg-v3.jpg);">
+                          <div class="reviews-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                          </div>
+
+                          <p class="text-primary d-block mt-2 mb-0 w-100" ><h6 style="color: white ;"> Best health care </h6></p>
+
+                          <p class="reviews-text w-100" style="color: white;"> We trust Ashay Infotech with all of our IT needs, and they never disappoint. Their solutions are reliable, cost-effective, and tailored to our specific requirements.</p>
+
+                          <img src="assets/images/logo-v3.png" class="img-fluid reviews-image" alt="">
+
+                          <figcaption class="ms-4">
+                              <strong style="color: white;">Laura Zono</strong>
+
+                              <span class="text-muted" style="color: white;">New Patient</span>
+                          </figcaption>
+                      </figure>
+
+                      <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded" style="background-image: url(assets/images/quote-bg-v3.jpg);">
+                          <div class="reviews-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                          </div>
+
+                          <p class="text-primary d-block mt-2 mb-0 w-100" ><h6 style="color: white;">Best Advices</h6> </p>
+
+                          <p class="reviews-text w-100" style="color: white;">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+                          <img src="assets/images/logo-v1.png" class="img-fluid reviews-image" alt="">
+
+                          <figcaption class="ms-4">
+                              <strong style="color: white;">Rosey</strong>
+
+                              <span style="color: white;">Almost Recovered</span>
+                          </figcaption>
+                      </figure>
+                     
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  </main> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <p>Copyright Ashay Infotech  All Rights Reserved. 
-          <br>Design: <a href="#" target="_parent" title="free css templates">Ashay Infotech</a></p>
+          <br>Design: <a href="#" target="_parent" title="free css templates">by Ashay Infotech team SDP</a></p>
         </div>
       </div>
     </div>
@@ -1835,9 +2072,17 @@ In conclusion, at Ashay Infotech, with over 10 years of experience in providing 
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/custom.js"></script>
-
-</body>
+  <script src="assets/js/custom.js"></script>     
+  <script src="assets/js/customt.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/scrollspy.min.js"></script>
+  <!--
+    Script To disable right click 
+   -->
+    <!--
+   <script> document.addEventListener('contextmenu',
+    event => event.preventDefault());</script>-->
+ </body>
 </html>
 
 

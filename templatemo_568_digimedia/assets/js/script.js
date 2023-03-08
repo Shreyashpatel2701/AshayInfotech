@@ -13,3 +13,5 @@ counters.forEach((counter) => {
   };
   updateCounter();
 });
+
+
