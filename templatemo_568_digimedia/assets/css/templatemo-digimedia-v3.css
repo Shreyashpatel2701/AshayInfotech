@@ -1349,6 +1349,16 @@ Services Style
   padding: auto;
 }
 
+.services .naccs .menu div :hover{
+ background: linear-gradient(105deg, #4da6e7 0%, #4da6e7 100%);
+}
+
+.services .naccs .menu :hover{
+   text-decoration: white;
+ }
+
+
+
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
@@ -1356,6 +1366,8 @@ Services Style
   background-color: #fff;
   padding: auto;
 }
+
+
 
 .services .naccs .menu div.active {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
@@ -1398,6 +1410,8 @@ Services Style
 .services ul.nacc li .right-image img {
   max-width: 420px;
   float: right;
+  height: auto;
+  max-height: fit-content;
 }
 
 .services .nacc .thumb h4 {
@@ -1432,6 +1446,8 @@ Services Style
 .services .left-text p {
   margin-bottom: 30px;
 }
+
+
 
 .nacc .ticks-list span {
   display: inline-block;
@@ -2366,6 +2382,11 @@ Video
   transition: all 0.3s;
 }
 
+
+/*
+UPLOAD YOUR CV BUTTON 
+*/
+
 #upload_button {
   display: inline-block;
  
@@ -2374,9 +2395,16 @@ Video
   display:none;
 }
 
+
+/*
+Testimonial code
+*/
+
+
 .reviews-thumb {
   margin-bottom: 0;
   padding: 32px;
+  
 }
 
 .reviews-text {
@@ -2458,11 +2486,14 @@ Video
   content: "\f138";
 }
 
+
 .checked {
   color: white;
 }
 
-
+/*
+Features  code
+*/
 #features {
   padding-top: 10px;
 }
@@ -2504,13 +2535,7 @@ Video
   background-color: rgba(255,255,255,0.3);
 }
 
-.first-feature:hover .icon {
-  background-image: url(../images/features-icon-white-01.png);
-}
 
-.second-feature:hover .icon {
-  background-image: url(../images/features-icon-white-02.png);
-}
 
 .features-item .number h6 {
   background-repeat: no-repeat;
@@ -2527,29 +2552,7 @@ Video
   margin-bottom: 30px;
 }
 
-.features-item .first-number h6 {
-  background-image: url(../images/features-number-01.png);
-}
 
-.features-item .second-number h6 {
-  background-image: url(../images/features-number-02.png);
-}
-
-.features-item .third-number h6 {
-  background-image: url(../images/features-number-03.png);
-}
-
-.features-item .fourth-number h6 {
-  background-image: url(../images/features-number-04.png);
-}
-
-.first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
-}
-
-.second-feature .icon {
-  background-image: url(../images/features-icon-black-02.png);
-}
 
 .features-item .icon {
   width: 63px;
@@ -2573,7 +2576,7 @@ Video
 .features-item .line-dec {
   width: 100px;
   height: 2px;
-  background-color: rgba(51,204,197,0.3);
+  background-color: #4da6e7;
   margin: 30px auto;
   transition: all 0.5s;
 }
