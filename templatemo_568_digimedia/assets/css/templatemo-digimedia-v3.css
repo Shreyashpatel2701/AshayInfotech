@@ -383,8 +383,8 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -1353,8 +1353,8 @@ Services Style
  background: linear-gradient(105deg, #4da6e7 0%, #4da6e7 100%);
 }
 
-.services .naccs .menu :hover{
-   text-decoration: white;
+.services .naccs .menu div :hover h5{
+   color: #efefef;
  }
 
 
