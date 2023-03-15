@@ -1301,6 +1301,7 @@ Services Style
 
 .services .section-heading .line-dec {
   margin: 0 auto;
+  
 }
 
 .services .naccs {
@@ -2374,6 +2375,8 @@ Video
   transition: all 0.3s;
 }
 
+
+
 .our-videos .menu .thumb .inner-content span {
   font-size: 15px;
   color: #fff;
@@ -2413,9 +2416,9 @@ Testimonial code
 }
 
 .reviews-image {
-  border-radius: 100px;
-  width: 70px !important;
-  height: 70px !important;
+ /* border-radius: 100px; */
+  width: 100px !important;
+  height: 100px !important;
 }
 
 .reviews-carousel .owl-item {
@@ -2432,7 +2435,7 @@ Testimonial code
 
 .reviews-carousel .owl-item.active.center .reviews-thumb,
 .reviews-carousel .owl-item.active.center .reviews-text {
-  color: var(--white-color);
+  color: var(--dark-color);
 }
 
 .reviews-carousel .owl-nav {
