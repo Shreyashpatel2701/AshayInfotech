@@ -646,8 +646,8 @@ header
   .background-header .main-nav .nav li:last-child {
     display: none;
   }
-  .header-area .main-nav .nav li:nth-child(6),
-  .background-header .main-nav .nav li:nth-child(6) {
+  .header-area .main-nav .nav li:nth-child(8),
+  .background-header .main-nav .nav li:nth-child(8) {
     padding-right: 0px;
   }
   .background-header .nav li a.active:after {
@@ -1301,7 +1301,7 @@ Services Style
 
 .services .section-heading .line-dec {
   margin: 0 auto;
-  
+
 }
 
 .services .naccs {
@@ -2404,6 +2404,11 @@ Testimonial code
 */
 
 
+.reviews .section-heading .line-dec {
+  margin: 0 auto;
+}
+
+
 .reviews-thumb {
   margin-bottom: 0;
   padding: 32px;
@@ -2487,7 +2492,12 @@ Testimonial code
 
 .reviews-carousel .owl-next span::before {
   content: "\f138";
+} 
+
+.reviews-carousel  {
+  margin-top: 25px;
 }
+
 
 
 .checked {
@@ -2588,4 +2598,21 @@ Features  code
   position: relative;
   margin-top: 0px;
   transition: all 0.5s;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #4da6e7;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
 }

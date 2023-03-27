@@ -25,7 +25,7 @@
       margin:0,
       responsive:{ 
           1200:{
-              items:5
+              items:7
           },
           992:{
               items:3
