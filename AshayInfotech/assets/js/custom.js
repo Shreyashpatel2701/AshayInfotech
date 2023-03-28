@@ -41,7 +41,7 @@
   if($('.menu-trigger').length){
     $(".menu-trigger").on('click', function() { 
       $(this).toggleClass('active');
-      $('.header-area .nav').slideToggle(200);
+      $('.header-area .nav').slideToggle(0);
     });
   }
 
@@ -59,7 +59,7 @@
         }       
         $('html,body').animate({
           scrollTop: (target.offset().top) + 1
-        }, 700);
+        }, 0);
         return false;
       }
     }
@@ -83,7 +83,7 @@
           var target = $(this.hash);
           $('html, body').stop().animate({
               scrollTop: (target.offset().top) + 1
-          }, 500, 'swing', function () {
+          }, 0, 'swing', function () {
               window.location.hash = target;
               $(document).on("scroll", onScroll);
           });
