@@ -42,13 +42,15 @@
     
     }
     .counter-container {
-      display: flex;
+      /*display: flex;*/
       width: min-content;
       height: min-content;
       color: #8d99af;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      margin: 30px 50px;
       margin: auto;
+      
     }
   }
